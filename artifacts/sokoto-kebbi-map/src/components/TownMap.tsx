@@ -48,6 +48,9 @@ export default function TownMap() {
       <MapContainer
         center={[12.4, 4.8]}
         zoom={8}
+        minZoom={3}
+        maxBounds={[[-90, -180], [90, 180]]}
+        maxBoundsViscosity={1.0}
         style={{ width: "100%", height: "100%" }}
         zoomControl={true}
         attributionControl={true}
@@ -59,6 +62,7 @@ export default function TownMap() {
           url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
           attribution="Tiles &copy; Esri &mdash; Source: Esri, Maxar, Earthstar Geographics"
           maxZoom={19}
+          noWrap={true}
         />
 
         {/* Road & label overlay */}
@@ -67,6 +71,7 @@ export default function TownMap() {
           attribution='&copy; <a href="https://carto.com/">CARTO</a>'
           maxZoom={19}
           opacity={0.85}
+          noWrap={true}
         />
 
         {/* Town markers */}
