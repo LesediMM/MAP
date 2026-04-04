@@ -1,8 +1,7 @@
 import { useEffect } from "react";
-import { MapContainer, TileLayer, Marker, Popup, GeoJSON, useMap } from "react-leaflet";
+import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
 import L from "leaflet";
 import { towns, type TownStatus } from "@/data/towns";
-import { statesGeoJson } from "@/data/stateBorders";
 import "leaflet/dist/leaflet.css";
 
 const STATUS_COLORS: Record<TownStatus, string> = {
@@ -33,25 +32,6 @@ function createMarkerIcon(status: TownStatus): L.DivIcon {
     iconAnchor: [11, 11],
     popupAnchor: [0, -14],
   });
-}
-
-const stateBorderStyle: L.PathOptions = {
-  color: "#ffffff",
-  weight: 2.5,
-  opacity: 0.9,
-  fillColor: "#ffffff",
-  fillOpacity: 0.06,
-  dashArray: "6 4",
-};
-
-function onEachStateFeature(feature: GeoJSON.Feature, layer: L.Layer) {
-  if (feature.properties?.name) {
-    (layer as L.Path).bindTooltip(feature.properties.name as string, {
-      permanent: true,
-      direction: "center",
-      className: "state-label",
-    });
-  }
 }
 
 function InvalidateSizeOnMount() {
@@ -87,13 +67,6 @@ export default function TownMap() {
           attribution='&copy; <a href="https://carto.com/">CARTO</a>'
           maxZoom={19}
           opacity={0.85}
-        />
-
-        {/* State boundary outlines */}
-        <GeoJSON
-          data={statesGeoJson}
-          style={stateBorderStyle}
-          onEachFeature={onEachStateFeature}
         />
 
         {/* Town markers */}
@@ -183,44 +156,8 @@ export default function TownMap() {
             </div>
           )
         )}
-        <div
-          style={{
-            marginTop: 12,
-            paddingTop: 10,
-            borderTop: "1px solid rgba(255,255,255,0.1)",
-            display: "flex",
-            alignItems: "center",
-            gap: 8,
-          }}
-        >
-          <span
-            style={{
-              display: "inline-block",
-              width: 22,
-              height: 2,
-              background: "rgba(255,255,255,0.7)",
-              borderTop: "2px dashed rgba(255,255,255,0.7)",
-            }}
-          />
-          <span style={{ fontSize: 12, color: "#94a3b8" }}>State boundary</span>
-        </div>
       </div>
 
-      <style>{`
-        .state-label {
-          background: transparent !important;
-          border: none !important;
-          box-shadow: none !important;
-          color: rgba(255,255,255,0.75) !important;
-          font-size: 11px !important;
-          font-weight: 600 !important;
-          letter-spacing: 0.06em !important;
-          text-transform: uppercase !important;
-          text-shadow: 0 1px 3px rgba(0,0,0,0.8), 0 0 6px rgba(0,0,0,0.6) !important;
-          pointer-events: none !important;
-        }
-        .state-label::before { display: none !important; }
-      `}</style>
     </div>
   );
 }
