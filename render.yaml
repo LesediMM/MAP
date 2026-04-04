@@ -1,0 +1,27 @@
+# ============================================================
+# Render Deployment Configuration — Sokoto & Kebbi Map
+# ============================================================
+#
+# This file configures automatic deployment on Render.com.
+# Push to GitHub → Render detects the change → rebuilds automatically.
+#
+# Dashboard settings (enter these in Render if you prefer the UI):
+#   Service type  : Static Site
+#   Root dir      : (leave blank — build runs from repo root)
+#   Build command : pnpm install && pnpm --filter @workspace/sokoto-kebbi-map run build
+#   Publish dir   : artifacts/sokoto-kebbi-map/dist/public
+#   Branch        : main  (or your default branch)
+#   Auto-deploy   : Yes
+# ============================================================
+
+services:
+  - type: web
+    name: sokoto-kebbi-map
+    env: static
+    buildCommand: pnpm install && pnpm --filter @workspace/sokoto-kebbi-map run build
+    staticPublishPath: artifacts/sokoto-kebbi-map/dist/public
+    branch: main
+    autoDeploy: true
+    envVars:
+      - key: BASE_PATH
+        value: /
