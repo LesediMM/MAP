@@ -1,0 +1,43 @@
+Act as a Senior GIS Web Developer. I need you to write the complete code for an interactive web map. I want all the HTML, CSS, and JavaScript combined into a single index.html file for easy deployment.
+
+Project Overview:
+A full-screen interactive map focusing strictly on the Sokoto State and Kebbi State in Nigeria. I will use this map to manually track the status of various towns using color-coded markers.
+
+Map Specifications:
+
+Map Provider: Use the Google Maps JavaScript API.
+
+Map Type: Default the map to HYBRID mode (Satellite imagery with roads, city names, and borders accurately labeled).
+
+Viewport / Center: Automatically center and set the zoom level to perfectly fit the Sokoto and Kebbi states in Northwestern Nigeria (approximate center coordinates: Latitude 12.4, Longitude 4.8, zoom level around 7 or 8).
+
+Data Structure & Logic:
+
+Create a clearly commented data array in the JavaScript section where I can manually add my towns.
+
+The array objects should follow this exact format:
+{ name: "Town Name", lat: 12.345, lng: 4.567, status: "green" }
+
+The status property will strictly be one of four strings: "green", "yellow", "red", or "gray". Include 4-5 dummy towns in Sokoto and Kebbi as examples so I can see how it works.
+
+Marker Functionality:
+
+Write a function that loops through the data array and plots a marker for each town on the map.
+
+The color of the map marker must dynamically change to match the status value (Green, Yellow, Red, or Gray). Use standard Google Maps colored pins or custom SVG SVG paths for the markers to achieve this.
+
+Add an InfoWindow click event to each marker. When clicked, it should pop up a small bubble displaying the Town's Name and its current Status.
+
+User Interface:
+
+The map should take up 100% of the browser window (width: 100vw; height: 100vh; margin: 0;).
+
+Create a clean, floating UI Legend in the bottom-left or bottom-right corner explaining the colors. (e.g., Green = Secure/Clear, Yellow = Caution, Red = Danger, Gray = Unknown/Pending).
+
+Deliverables:
+
+The complete, ready-to-run code in a single HTML block.
+
+A clear placeholder like YOUR_GOOGLE_MAPS_API_KEY_HERE where I need to insert my key.
+
+Brief instructions on how I can easily find the latitude and longitude for the rest of the towns I need to add.
