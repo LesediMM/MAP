@@ -1,0 +1,39 @@
+Act as a Senior GIS Web Developer. I need you to write the complete code for an interactive web map using Leaflet.js instead of Google Maps. I want all the HTML, CSS, and JavaScript combined into a single index.html file for easy deployment. No API keys or credit cards should be required.
+
+Project Overview:
+A full-screen interactive map focusing strictly on the Sokoto State and Kebbi State in Nigeria. I will use this map to manually track the status of various towns using color-coded markers.
+
+Map Specifications:
+
+Map Library: Use Leaflet.js (pull the CSS and JS via public CDNs).
+
+Map Tiles (Base Map): Set up a Hybrid map. Use Esri World Imagery (https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}) for the satellite base. On top of that, overlay the Stamen Toner Labels or a transparent OpenStreetMap layer so the roads and town names are visible over the satellite imagery.
+
+Viewport / Center: Automatically center and set the zoom level to perfectly fit the Sokoto and Kebbi states in Northwestern Nigeria (approximate center coordinates: Latitude 12.4, Longitude 4.8, zoom level around 7 or 8).
+
+Data Structure & Logic:
+
+Create a clearly commented data array in the JavaScript section where I can manually add my towns.
+
+The array objects should follow this exact format:
+{ name: "Town Name", lat: 12.345, lng: 4.567, status: "green" }
+
+The status property will strictly be one of four strings: "green", "yellow", "red", or "gray". Include 4-5 dummy towns in Sokoto and Kebbi as examples.
+
+Marker Functionality:
+
+Write a function that loops through the data array and plots a marker for each town.
+
+Because Leaflet's default markers are blue, create a custom icon logic. Use simple colored SVG circles or Leaflet's divIcon to color the markers dynamically based on their status (Green, Yellow, Red, or Gray).
+
+Add a popup bound to each marker. When clicked, it should display the Town's Name and its current Status.
+
+User Interface:
+
+The map should take up 100% of the browser window (width: 100vw; height: 100vh; margin: 0;).
+
+Create a clean, floating HTML UI Legend in the bottom-left or bottom-right corner explaining the colors. (e.g., Green = Secure/Clear, Yellow = Caution, Red = Danger, Gray = Unknown/Pending).
+
+Deliverables:
+
+The complete, ready-to-run code in a single HTML block.
