@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Sokoto & Kebbi Town Status Map"
+version = "1.0.0"
+id = "artifacts/sokoto-kebbi-map"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 19132
+
+[services.development]
+run = "pnpm --filter @workspace/sokoto-kebbi-map run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/sokoto-kebbi-map", "run", "build" ]
+publicDir = "artifacts/sokoto-kebbi-map/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19132"
+BASE_PATH = "/"
