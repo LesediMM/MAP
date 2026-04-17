@@ -1,17 +1,25 @@
 # ============================================================
-# Render Deployment Configuration — Sokoto & Kebbi Map
+# Render Deployment — Sokoto & Kebbi Town Status Map
 # ============================================================
 #
-# This file configures automatic deployment on Render.com.
-# Push to GitHub → Render detects the change → rebuilds automatically.
+# HOW TO DEPLOY IN 3 STEPS:
 #
-# Dashboard settings (enter these in Render if you prefer the UI):
-#   Service type  : Static Site
-#   Root dir      : (leave blank — build runs from repo root)
-#   Build command : pnpm install && pnpm --filter @workspace/sokoto-kebbi-map run build
-#   Publish dir   : artifacts/sokoto-kebbi-map/dist/public
-#   Branch        : main  (or your default branch)
-#   Auto-deploy   : Yes
+# 1. Download this project as a ZIP from Replit, then push to GitHub.
+#
+# 2. On Render.com:
+#    → New → Blueprint → connect your GitHub repo.
+#    Render reads this file and auto-configures everything below.
+#
+# 3. Push any future town data change to GitHub →
+#    Render auto-rebuilds and the live site updates in ~1 minute.
+#
+# ── Manual dashboard settings (if NOT using Blueprint) ─────
+#   Service type    : Static Site
+#   Root directory  : (leave blank)
+#   Build command   : pnpm install && pnpm --filter @workspace/sokoto-kebbi-map run build
+#   Publish directory : artifacts/sokoto-kebbi-map/dist/public
+#   Branch          : main
+#   Auto-deploy     : Yes
 # ============================================================
 
 services:
@@ -25,3 +33,5 @@ services:
     envVars:
       - key: BASE_PATH
         value: /
+      - key: NODE_VERSION
+        value: "20"
