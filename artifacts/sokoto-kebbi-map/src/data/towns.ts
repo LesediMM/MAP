@@ -56,6 +56,7 @@ export const towns: Town[] = [
   // ── Kebbi State ───────────────────────────────────────────
   { name: "Birnin Kebbi", lat: 12.4539, lng: 4.1975, status: "green" },
   { name: "Argungu",      lat: 12.7405, lng: 4.5237, status: "gray"  },
+  { name: "Binji",        lat: 13.22376066933496, lng: 4.911506773486378, status: "red"}
 
   // Add more towns here ↓
   // { name: "Binji", lat: 13.2167, lng: 4.9167, status: "red" },
