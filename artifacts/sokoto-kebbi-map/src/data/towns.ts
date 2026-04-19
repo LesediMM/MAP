@@ -153,7 +153,7 @@ export const towns: Town[] = [
   { name: "Rufai",              lat: 13.482814953212781,  lng: 4.378113378521153,  status: "yellow" },
   { name: "Kaukau",             lat: 13.501032514528697,  lng: 4.388413641366096,  status: "yellow" },
 
-  // ── Kebbi State ───────────────────────────────────────────
+  // ── Kebbi State -───────────────────────────────────────────
   { name: "Birnin Kebbi",       lat: 12.4539,             lng: 4.1975,             status: "green"  },
   { name: "Argungu",            lat: 12.7405,             lng: 4.5237,             status: "gray"   }
 ];
