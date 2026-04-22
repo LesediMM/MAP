@@ -152,8 +152,6 @@ export const towns: Town[] = [
   { name: "Tunga-Sabarumowa",   lat: 13.504856340455111,  lng: 4.36215683180432,   status: "red"    },
   { name: "Rufai",              lat: 13.482814953212781,  lng: 4.378113378521153,  status: "yellow" },
   { name: "Kaukau",             lat: 13.501032514528697,  lng: 4.388413641366096,  status: "yellow" },
-
-  // Additional towns from latest update
   { name: "Bauchi",             lat: 13.592370719057081,  lng: 4.430604995627184,  status: "red"    },
   { name: "Kokoki",             lat: 13.601310029381388,  lng: 4.429592242653362,  status: "red"    },
   { name: "Katsura",            lat: 13.611540911713607,  lng: 4.446329177018332,  status: "red"    },
@@ -180,6 +178,28 @@ export const towns: Town[] = [
   { name: "Maraken Bori",       lat: 13.645196915636888,  lng: 4.478085605206894,  status: "red"    },
   { name: "Diegi",              lat: 13.549371016838434,  lng: 4.631576581609151,  status: "red"    },
   { name: "Angwa Bawa",         lat: 13.230424974116499,  lng: 4.447817340624977,  status: "yellow" },
+
+  // Newly added towns (latest update)
+  { name: "Malgam",             lat: 13.67774355431209,   lng: 5.0205238376158965, status: "yellow" },
+  { name: "Sarma",              lat: 13.642907052928257,  lng: 4.95051341879636,   status: "red"    },
+  { name: "Waria",              lat: 13.653898791320614,  lng: 4.978234812939337,  status: "yellow" },
+  { name: "Nukuru",             lat: 13.622032393688409,  lng: 4.976807321858309,  status: "yellow" },
+  { name: "Kaideji",            lat: 13.616476827800577,  lng: 5.0319082095056515, status: "yellow" },
+  { name: "Bauni",              lat: 13.61182648533304,   lng: 5.075283394277553,  status: "yellow" },
+  { name: "Goboro",             lat: 13.577143987395768,  lng: 5.106123261418262,  status: "yellow" },
+  { name: "Alia",               lat: 13.581483114763184,  lng: 4.983985653711375,  status: "yellow" },
+  { name: "Sauna",              lat: 13.57208755321627,   lng: 5.190888194965811,  status: "yellow" },
+  { name: "Zurmuku",            lat: 13.530324491620876,  lng: 5.120007179559516,  status: "yellow" },
+  { name: "Salewa",             lat: 13.495266307330114,  lng: 5.122226423520737,  status: "red"    },
+  { name: "Buwadi",             lat: 13.52178843047349,   lng: 5.2205040000443335, status: "red"    },
+  { name: "Tunkarra",           lat: 13.511076263288663,  lng: 5.202350846408711,  status: "red"    },
+  { name: "Kyanga",             lat: 13.501218053808936,  lng: 5.175458271226308,  status: "yellow" },
+  { name: "Burtali",            lat: 13.481709388519718,  lng: 5.216531233298539,  status: "yellow" },
+  { name: "Gigani",             lat: 13.491701634804206,  lng: 5.230476210687502,  status: "red"    },
+  { name: "Isiyako",            lat: 13.534739227756196,  lng: 5.275158135008709,  status: "red"    },
+  { name: "Dambaana",           lat: 13.55129615265242,   lng: 5.264305357796733,  status: "red"    },
+  { name: "Makina",             lat: 13.586485669301426,  lng: 5.288058469436352,  status: "yellow" },
+  { name: "Tarike",             lat: 13.585656419679529,  lng: 5.25985553996644,   status: "red"    },
 
   // ── Kebbi State ───────────────────────────────────────────
   { name: "Birnin Kebbi",       lat: 12.4539,             lng: 4.1975,             status: "green"  },
