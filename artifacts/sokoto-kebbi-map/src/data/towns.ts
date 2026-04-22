@@ -198,8 +198,6 @@ export const towns: Town[] = [
   { name: "Dambaana",           lat: 13.55129615265242,   lng: 5.264305357796733,  status: "red"    },
   { name: "Makina",             lat: 13.586485669301426,  lng: 5.288058469436352,  status: "yellow" },
   { name: "Tarike",             lat: 13.585656419679529,  lng: 5.25985553996644,   status: "red"    },
-
-  // New towns from latest update (Raka, Hasan, etc.)
   { name: "Raka",               lat: 13.446708659390653,  lng: 5.158326880841646,  status: "red"    },
   { name: "Hasan",              lat: 13.442274800143059,  lng: 5.116383085091419,  status: "yellow" },
   { name: "Nadindu",            lat: 13.46210342589534,   lng: 5.1176216557938305, status: "yellow" },
@@ -234,6 +232,24 @@ export const towns: Town[] = [
   { name: "Gwadabawa",          lat: 13.354327744210835,  lng: 5.237810181102184,  status: "red"    },
   { name: "Abdolo",             lat: 13.397516601963845,  lng: 5.245751677961947,  status: "red"    },
   { name: "Gundunga",           lat: 13.25916204603041,   lng: 5.152976001902878,  status: "yellow" },
+
+  // New towns (latest batch)
+  { name: "Kware",              lat: 13.21845334123869,   lng: 5.26522345897118,    status: "red"    },
+  { name: "Kalalawa",           lat: 13.208692657352321,  lng: 5.223795682517822,   status: "red"    },
+  { name: "Kulatawa",           lat: 13.200692881737929,  lng: 5.2148636165231546,  status: "red"    },
+  { name: "Kawa",               lat: 13.174825794514966,  lng: 5.238838647626863,   status: "yellow" },
+  { name: "Erjabe",             lat: 13.166460494195203,  lng: 5.229261896101178,   status: "yellow" },
+  { name: "Danjawa",            lat: 13.139979944693124,  lng: 5.224728673786987,   status: "green"  },
+  { name: "Kaura",              lat: 13.131559913563612,  lng: 5.241282181871309,   status: "yellow" },
+  { name: "Dundaye",            lat: 13.112450025534883,  lng: 5.227490507205965,   status: "yellow" },
+  { name: "Gidan Alkali",       lat: 13.127482425964732,  lng: 5.203914593462488,   status: "green"  },
+  { name: "Budano Ila",         lat: 13.11198633197532,   lng: 5.13492533841575,    status: "yellow" },
+  { name: "Lingo",              lat: 13.092532653990308,  lng: 5.139577197457354,   status: "green"  },
+  { name: "Bowen",              lat: 13.07525855518801,   lng: 5.099672415070902,   status: "yellow" },
+  { name: "Huchi",              lat: 13.053081197169567,  lng: 5.074380677535463,   status: "red"    },
+  { name: "Samalu",             lat: 13.105486034141512,  lng: 5.031627363646236,   status: "green"  },
+  { name: "Daraye",             lat: 13.140959595916662,  lng: 5.01874373646678,    status: "yellow" },
+  { name: "Samama",             lat: 13.158200553642846,  lng: 5.028848911122216,   status: "yellow" },
 
   // ── Kebbi State ───────────────────────────────────────────
   { name: "Birnin Kebbi",       lat: 12.4539,             lng: 4.1975,             status: "green"  },
