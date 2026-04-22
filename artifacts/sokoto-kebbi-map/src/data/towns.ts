@@ -153,7 +153,35 @@ export const towns: Town[] = [
   { name: "Rufai",              lat: 13.482814953212781,  lng: 4.378113378521153,  status: "yellow" },
   { name: "Kaukau",             lat: 13.501032514528697,  lng: 4.388413641366096,  status: "yellow" },
 
-  // ── Kebbi State -───────────────────────────────────────────
+  // Additional towns from latest update
+  { name: "Bauchi",             lat: 13.592370719057081,  lng: 4.430604995627184,  status: "red"    },
+  { name: "Kokoki",             lat: 13.601310029381388,  lng: 4.429592242653362,  status: "red"    },
+  { name: "Katsura",            lat: 13.611540911713607,  lng: 4.446329177018332,  status: "red"    },
+  { name: "Awulkin Takare",     lat: 13.621540517817355,  lng: 4.411266155673596,  status: "red"    },
+  { name: "Maraken Bori",       lat: 13.64643090583856,   lng: 4.481602061620293,  status: "red"    },
+  { name: "Gozange",            lat: 13.645416869455632,  lng: 4.507401776525585,  status: "red"    },
+  { name: "Maraken Bori",       lat: 13.646270239463593,  lng: 4.479196080703988,  status: "red"    },
+  { name: "Diegi",              lat: 13.549707904432053,  lng: 4.633476827577719,  status: "yellow" },
+  { name: "Rafin Kubu",         lat: 13.515982886290367,  lng: 4.6494314745781935, status: "yellow" },
+  { name: "Talabani",           lat: 13.529476100700725,  lng: 4.742580530113075,  status: "yellow" },
+  { name: "Jigo",               lat: 13.504332546710549,  lng: 4.747393961807133,  status: "yellow" },
+  { name: "Wayage",             lat: 13.55944021899509,   lng: 4.8433484941527105, status: "red"    },
+  { name: "Gingu",              lat: 13.53492837221822,   lng: 4.843026227215261,  status: "yellow" },
+  { name: "Dan Tudu Wusenia",   lat: 13.643099725860191,  lng: 4.800479918112909,  status: "red"    },
+  { name: "Chohi",              lat: 13.592412961739143,  lng: 4.872704673145685,  status: "red"    },
+  { name: "Bagida",             lat: 13.702911708566296,  lng: 4.913374928498166,  status: "red"    },
+  { name: "Tunugara",           lat: 13.715875749791492,  lng: 4.868497661535552,  status: "yellow" },
+  { name: "Buzaga",             lat: 13.740497270788893,  lng: 4.871697001211308,  status: "red"    },
+  { name: "Sabiu",              lat: 13.74653614876653,   lng: 4.877765709007651,  status: "red"    },
+  { name: "Kuradina",           lat: 13.73419236306544,   lng: 4.908058450719953,  status: "red"    },
+  { name: "Karani",             lat: 13.133462566755439,  lng: 4.558693683063478,  status: "red"    },
+  { name: "Bauchi",             lat: 13.59212491760964,   lng: 4.430139681049821,  status: "red"    },
+  { name: "Katsura",            lat: 13.610334975720887,  lng: 4.445531406204462,  status: "red"    },
+  { name: "Maraken Bori",       lat: 13.645196915636888,  lng: 4.478085605206894,  status: "red"    },
+  { name: "Diegi",              lat: 13.549371016838434,  lng: 4.631576581609151,  status: "red"    },
+  { name: "Angwa Bawa",         lat: 13.230424974116499,  lng: 4.447817340624977,  status: "yellow" },
+
+  // ── Kebbi State ───────────────────────────────────────────
   { name: "Birnin Kebbi",       lat: 12.4539,             lng: 4.1975,             status: "green"  },
   { name: "Argungu",            lat: 12.7405,             lng: 4.5237,             status: "gray"   }
 ];
