@@ -253,5 +253,19 @@ export const towns: Town[] = [
 
   // ── Kebbi State ───────────────────────────────────────────
   { name: "Birnin Kebbi",       lat: 12.4539,             lng: 4.1975,             status: "green"  },
-  { name: "Argungu",            lat: 12.7405,             lng: 4.5237,             status: "gray"   }
+  { name: "Argungu",            lat: 12.7405,             lng: 4.5237,             status: "gray"   },
+  { name: "Tuga",               lat: 11.36887553889238,   lng: 4.150192155395355,  status: "yellow" },
+  { name: "Tuluwa",             lat: 11.348615944361695,  lng: 4.200064703253016,  status: "yellow" },
+  { name: "Tunga Maje",         lat: 11.353707736070932,  lng: 4.216253013916381,  status: "yellow" },
+  { name: "Zaria",              lat: 11.356140101327853,  lng: 4.1806196230704264, status: "red"    },
+  { name: "Tunga Ulu",          lat: 11.379330038688499,  lng: 4.229747622804109,  status: "yellow" },
+  { name: "Baguda",             lat: 11.400108874475404,  lng: 4.22391110806843,   status: "red"    },
+  { name: "Futawa",             lat: 11.391014789996,     lng: 4.26463297196405,   status: "yellow" },
+  { name: "Marakai",            lat: 11.424523910310143,  lng: 4.265759191035419,  status: "red"    },
+  { name: "Ramin Kura",         lat: 11.39537860636687,   lng: 4.195710557842012,  status: "red"    },
+  { name: "Bahindi",            lat: 11.464547318039479,  lng: 4.183279313848462,  status: "yellow" },
+  { name: "Runtuwa",            lat: 11.492963849569142,  lng: 4.185630454978016,  status: "green"  },
+  { name: "Kuruga",             lat: 11.515925549485898,  lng: 4.236252935914058,  status: "red"    },
+  { name: "Tunga Burahi",       lat: 11.486121259698312,  lng: 4.284139863196304,  status: "yellow" },
+  { name: "Dabaga",             lat: 11.474149396754928,  lng: 4.305575092980705,  status: "yellow" }
 ];
