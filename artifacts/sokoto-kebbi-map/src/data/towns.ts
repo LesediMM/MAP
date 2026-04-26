@@ -251,9 +251,11 @@ export const towns: Town[] = [
   { name: "Daraye",             lat: 13.140959595916662,  lng: 5.01874373646678,    status: "yellow" },
   { name: "Samama",             lat: 13.158200553642846,  lng: 5.028848911122216,   status: "yellow" },
 
-  // ── Kebbi State ───────────────────────────────────────────
+ // ── Kebbi State ───────────────────────────────────────────
   { name: "Birnin Kebbi",       lat: 12.4539,             lng: 4.1975,             status: "green"  },
   { name: "Argungu",            lat: 12.7405,             lng: 4.5237,             status: "gray"   },
+
+  // Previously added
   { name: "Tuga",               lat: 11.36887553889238,   lng: 4.150192155395355,  status: "yellow" },
   { name: "Tuluwa",             lat: 11.348615944361695,  lng: 4.200064703253016,  status: "yellow" },
   { name: "Tunga Maje",         lat: 11.353707736070932,  lng: 4.216253013916381,  status: "yellow" },
@@ -267,5 +269,10 @@ export const towns: Town[] = [
   { name: "Runtuwa",            lat: 11.492963849569142,  lng: 4.185630454978016,  status: "green"  },
   { name: "Kuruga",             lat: 11.515925549485898,  lng: 4.236252935914058,  status: "red"    },
   { name: "Tunga Burahi",       lat: 11.486121259698312,  lng: 4.284139863196304,  status: "yellow" },
-  { name: "Dabaga",             lat: 11.474149396754928,  lng: 4.305575092980705,  status: "yellow" }
+  { name: "Dabaga",             lat: 11.474149396754928,  lng: 4.305575092980705,  status: "yellow" },
+  { name: "Tunga Buda",         lat: 11.421926192010734,  lng: 4.155605312776774,  status: "yellow" },
+  { name: "Gwamba",             lat: 11.409466379110901,  lng: 4.107252863939761,  status: "red"    },
+  { name: "Tunga Dunyan",       lat: 11.454436262797588,  lng: 4.219669658188287,  status: "yellow" },
+  { name: "Tunga Gendinni",     lat: 11.33703588956299,   lng: 4.170231670698351,  status: "red"    },
+  { name: "Kwaikwai",           lat: 11.354639016801844,  lng: 4.128469765751711,  status: "red"    }
 ];
