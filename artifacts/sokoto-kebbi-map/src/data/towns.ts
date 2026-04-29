@@ -380,5 +380,19 @@ export const towns: Town[] = [
     { name: "Delmi", lat: 13.059439853824545, lng: 4.798957215086945, status: "yellow" },
     { name: "Silame", lat: 13.03803771920578, lng: 4.846520382723218, status: "yellow" },
     { name: "Sagi", lat: 13.070419755352939, lng: 4.69514533232453, status: "yellow" },
-    { name: "Kalugo", lat: 13.095350379479468, lng: 4.712196285960016, status: "yellow" }
+    { name: "Kalugo", lat: 13.095350379479468, lng: 4.712196285960016, status: "yellow" },
+    { name: "Gitarana", lat: 13.03511286557334, lng: 4.915626838440001, status: "yellow" },
+    { name: "Toso", lat: 13.015979669750779, lng: 4.915837868103671, status: "yellow" },
+    { name: "Gansaluwa", lat: 13.014939726094712, lng: 4.932337801697354, status: "yellow" },
+    { name: "Leni", lat: 13.038432835367662, lng: 4.950284993521848, status: "yellow" },
+    { name: "Yarume", lat: 13.008137144355599, lng: 4.990993945008993, status: "yellow" },
+    { name: "Getere", lat: 13.000963923208051, lng: 5.030930748962402, status: "red" },
+    { name: "Mankera", lat: 13.000449705969556, lng: 5.061029508716395, status: "yellow" },
+    { name: "Wamako", lat: 13.037130580580389, lng: 5.094646409975744, status: "yellow" },
+    { name: "Wamako", lat: 13.031486373893085, lng: 5.107181390274449, status: "green" },
+    { name: "Kamata", lat: 13.007992043613271, lng: 5.1214365601757095, status: "yellow" },
+    { name: "Danmali", lat: 13.090354280693976, lng: 4.956500273197657, status: "green" },
+    { name: "Bunkari", lat: 13.120868631850616, lng: 4.90191321343451, status: "yellow" },
+    { name: "Dargane", lat: 13.106014323197892, lng: 4.882051481969032, status: "green" },
+    { name: "Gande", lat: 13.081089405140526, lng: 4.828547633509979, status: "red" }
 ];
