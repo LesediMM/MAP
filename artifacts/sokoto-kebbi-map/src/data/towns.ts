@@ -394,5 +394,11 @@ export const towns: Town[] = [
     { name: "Danmali", lat: 13.090354280693976, lng: 4.956500273197657, status: "green" },
     { name: "Bunkari", lat: 13.120868631850616, lng: 4.90191321343451, status: "yellow" },
     { name: "Dargane", lat: 13.106014323197892, lng: 4.882051481969032, status: "green" },
-    { name: "Gande", lat: 13.081089405140526, lng: 4.828547633509979, status: "red" }
+    { name: "Gande", lat: 13.081089405140526, lng: 4.828547633509979, status: "red" },
+    { name: "Diddiba Tudu", lat: 13.117580257844828, lng: 4.974606601261113, status: "green" },
+    { name: "Maikulki", lat: 13.164606918054135, lng: 4.929322275145225, status: "yellow" },
+    { name: "Ginjo", lat: 13.162881405232678, lng: 4.973806959099488, status: "yellow" },
+    { name: "Kuachaw", lat: 13.225978996895812, lng: 5.013397484862868, status: "yellow" },
+    { name: "Kuanawa", lat: 13.239104888391067, lng: 4.986701153123331, status: "red" },
+    { name: "Toidi Gorgabi", lat: 13.23586106623173, lng: 4.942494150674803, status: "red" }
 ];
