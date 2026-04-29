@@ -50,7 +50,6 @@ export interface Town {
 export const towns: Town[] = [
   // ── Sokoto State ──────────────────────────────────────────
   { name: "Sokoto",             lat: 13.046720222462444,             lng: 5.231693259019106,             status: "green"  },
-  { name: "Tambuwal",           lat: 12.4047,             lng: 4.6467,             status: "yellow" },
   { name: "Wurno",              lat: 13.2931,             lng: 5.4219,             status: "red"    },
   { name: "Bachaka",            lat: 13.406255242763388,  lng: 4.174514597480909,  status: "red"    },
   { name: "Gwazange",           lat: 13.414786267553565,  lng: 4.25528626021784,   status: "red"    },
